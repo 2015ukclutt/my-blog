@@ -1,21 +1,38 @@
 .page-header {
-    background-color: #C25100;
+    background-color: #92b9b9;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    margin-bottom: 0;
+    padding: 10px 20px 10px 40px;
+    border-bottom: none;
+    font-family: 'Roboto';
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    padding-left: 0px;
+    font-family: 'Roboto';
+}
+
+body{
+    font-family: 'Roboto';
+    height: 100%;
+    margin: 0;
+    width: 100%;
 }
 
 .content {
     margin-left: 40px;
 }
 
+.content container{
+    height: 40px;
+}
+
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto';
+    color: #527a7a;
 }
 
 .date {
@@ -33,8 +50,8 @@ h1, h2, h3, h4 {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
-    margin-right: 20px;
+    font-size: 15pt;
+    margin-right: 15px;
 }
 
 .post {
@@ -47,4 +64,126 @@ h1, h2, h3, h4 {
 
 .comment {
     margin: 20px 0px 20px 20px;
+}
+
+nav, .footer {
+    width: 100%;
+    clear: both;
+    height: 40px;
+    background-color: #92b9b9;
+    font-family: 'Roboto';
+}
+
+.footer{
+    margin-bottom: 0;
+    padding: 10px;
+    display: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.footer_wrapper{
+    text-align: center;
+}
+
+.footer a{
+    margin-left: 20px;
+}
+
+nav {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #e0ebeb;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5px 0px 5px 40px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a {
+    color: #ffffff;
+}
+
+nav li a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -40px;
+}
+
+.homepage_wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.homepage_content {
+    display: block;
+    right: 250px;
+    width: 70%;
+    float: left;
+}
+
+.recent_wrapper {
+    display: block;
+    right: 0px;
+    width: 20%;
+    float: right;
+}
+
+.milestones {
+    border-left: 5px dotted #92b9b9;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    width: 70%;
+}
+
+.about_wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.timeline {
+    display: block;
+    right: 250px;
+    width: 90%;
+    float: left;
+}
+
+.skills_wrapper {
+    display: block;
+    right: 0px;
+    width: 10%;
+    float: right;
+}
+
+.skill img {
+    margin-bottom: : 20px
+}
+
+.loginbutton {
+    color: #334d4d;
+    background-color: #a3c2c2;
+    text-shadow: 0px 1px 1px #334d4d;
+    width: 10%;
+    height: auto;
+    border-radius: 5pt;
+    margin-top: 10px;
+}
+
+.loginform {
+    
 }
