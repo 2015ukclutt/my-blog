@@ -1,0 +1,39 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+    <div class= "about_wrapper">
+        <h1>About me</h1>
+        <div class = "timeline">
+            <div class = "milestones">
+                <h3>Technology Degree Apprenticeship with PwC @ University of Birmingham</h3>
+                <h4 class = "date">2019 - 2023</h4>
+                <p>Lorem ipsum dolor sit amet mollis dui laoreet. Nulla facilisi. Donec et nulla leo. Pellentesque sit amet augue volutpat justo tempor faucibus a in lectus. In vitae ex sem. Vestibulum molestie justo id rhoncus suscipit. Mauris placerat sem et felis vestibulum interdum. Integer lacus elit, tristique id ultrices et, sollicitudin porta arcu. Ut et ex faucibus ligula lacinia mollis. Praesent finibus odio a magna ullamcorper</p>
+            </div>
+            <div class = "milestones">
+                <h3>Salesian Sixth Form</h3>
+                <h4 class = "date">2017 - 2019</h4>
+                <p>Lorem ipsum dolor mollis dui laoreet. Nulla facilisi. Donec et nulla leo. Pellentesque sit amet augue volutpat justo tempor faucibus a in lectus. In vitae ex sem. Vestibulum molestie justo id rhoncus suscipit. Mauris placerat sem et felis vestibulum interdum. Integer lacus elit, tristique id ultrices et, sollicitudin porta arcu. Ut et ex faucibus ligula lacinia mollis. Praesent finibus odio a magna ullamcorper</p>
+            </div>
+            <div class = "milestones">
+                <h3>Salesian Secondary School</h3>
+                <h4 class = "date">2012 - 2017</h4>
+                <p>Lorem ipsum dolor mollis dui laoreet tempor faucibus a in lectus. In vitae ex sem. Vestibulum molestie justo id rhoncus suscipit. Mauris placerat sem et felis vestibulum interdum. Integer lacus elit, tristique id ultrices et, sollicitudin porta arcu. Ut et ex faucibus ligula lacinia mollis. Praesent finibus odio a magna ullamcorper</p>
+            </div>
+        </div>
+        <div class = "skills_wrapper">
+            <h3>Programming Skills</h3>
+            <div class = "skill">
+                <img alt="Java" src="{% static 'images/java.png' %}" width="150" height="80">
+            </div>
+            <div class = "skill">
+                <img alt="HTML & CSS" src="{% static 'images/htmlcss.png' %}" width="170" height="110">
+            </div>
+            <div class = "skill">
+                <img alt="Python" src="{% static 'images/python.svg' %}" width="220" height="80">
+            </div>
+            <div class = "skill">
+                <img alt="Django" src="{% static 'images/django.png' %}" width="160" height="50">
+            </div>
+        </div>
+    </div>
+{% endblock %}
