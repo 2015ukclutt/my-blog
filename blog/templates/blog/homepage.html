@@ -3,11 +3,10 @@
 {% block content %}
     <div class = "homepage_wrapper">
         <div class="homepage_content">
-            <p>Homepage</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus eros a mauris egestas, eget mollis dui laoreet. Nulla facilisi. Donec et nulla leo. Pellentesque sit amet augue volutpat justo tempor faucibus a in lectus. In vitae ex sem. Vestibulum molestie justo id rhoncus suscipit. Mauris placerat sem et felis vestibulum interdum. Integer lacus elit, tristique id ultrices et, sollicitudin porta arcu. Ut et ex faucibus ligula lacinia mollis. Praesent finibus odio a magna ullamcorper, ut iaculis erat dignissim. Aenean consequat erat sollicitudin urna blandit suscipit. Vestibulum vel felis sit amet ex hendrerit imperdiet. Nunc convallis blandit velit, sed mollis tortor imperdiet non. Mauris ut risus a nulla rutrum tincidunt accumsan in purus.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus eros a mauris egestas, eget mollis dui laoreet. Nulla facilisi. Donec et nulla leo. Pellentesque sit amet augue volutpat justo tempor faucibus a in lectus. In vitae ex sem. Vestibulum molestie justo id rhoncus suscipit. Mauris placerat sem et felis vestibulum interdum. Integer lacus elit, tristique id ultrices et, sollicitudin porta arcu. Ut et ex faucibus ligula lacinia mollis. Praesent finibus odio a magna ullamcorper, ut iaculis erat dignissim. Aenean consequat erat sollicitudin urna blandit suscipit. Vestibulum vel felis sit amet ex hendrerit imperdiet. Nunc convallis blandit velit, sed mollis tortor imperdiet non. Mauris ut risus a nulla rutrum tincidunt accumsan in purus.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus eros a mauris egestas, eget mollis dui laoreet. Nulla facilisi. Donec et nulla leo. Pellentesque sit amet augue volutpat justo tempor faucibus a in lectus. In vitae ex sem. Vestibulum molestie justo id rhoncus suscipit. Mauris placerat sem et felis vestibulum interdum. Integer lacus elit, tristique id ultrices et, sollicitudin porta arcu. Ut et ex faucibus ligula lacinia mollis. Praesent finibus odio a magna ullamcorper, ut iaculis erat dignissim. Aenean consequat erat sollicitudin urna blandit suscipit. Vestibulum vel felis sit amet ex hendrerit imperdiet. Nunc convallis blandit velit, sed mollis tortor imperdiet non. Mauris ut risus a nulla rutrum tincidunt accumsan in purus.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus eros a mauris egestas, eget mollis dui laoreet. Nulla facilisi. Donec et nulla leo. Pellentesque sit amet augue volutpat justo tempor faucibus a in lectus. In vitae ex sem. Vestibulum molestie justo id rhoncus suscipit. Mauris placerat sem et felis vestibulum interdum. Integer lacus elit, tristique id ultrices et, sollicitudin porta arcu. Ut et ex faucibus ligula lacinia mollis. Praesent finibus odio a magna ullamcorper, ut iaculis erat dignissim. Aenean consequat erat sollicitudin urna blandit suscipit. Vestibulum vel felis sit amet ex hendrerit imperdiet. Nunc convallis blandit velit, sed mollis tortor imperdiet non. Mauris ut risus a nulla rutrum tincidunt accumsan in purus.</p>
+            <img alt="Matt Profile Image" src="{% static 'images/profile.jpg' %}">
+            <p>Computer science student at the University of Birmingham, completing a degree apprenticeship with PwC. Strong interest in technology and all things running</p>
+            <p>Click here to read my blog</p>
+            <p>Click here to view my CV</p>
         </div>
         <div class="recent_wrapper">
             <h3>Recent Posts</h3>
@@ -15,9 +14,6 @@
                 <div class="recent">
                     <h4><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h4>
                     <p>{{ post.published_date }}</p>
-                    <!-- <div class="date">
-                        {{ post.published_date }}
-                    </div> -->
                 </div>
             {% endfor %}
         </div>

@@ -90,3 +90,6 @@ def homepage(request):
 
 def about(request):
     return render(request, 'blog/about.html')
+
+def cv(request):
+    return render(request, 'blog/cv.html')

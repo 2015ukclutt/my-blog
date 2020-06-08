@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 </head>
 <body>
@@ -19,13 +20,14 @@
             {% else %}
             <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-user"></span></a>
             {% endif %}
-            <h1><a href="/">Sample Website</a></h1>
+            <h1><a href="/">MATTHEW CLUTTERBUCK</a></h1>
         </div>
         <div class="nav-bar">
             <nav>
                 <ul>
                     <li><a href="{% url 'homepage' %}">Home</a></li>
                     <li><a href="{% url 'about' %}">About</a></li>
+                    <li><a href="{% url 'cv' %}">CV</a></li>
                     <li><a href="{% url 'post_list' %}">Blog</a></li>
                 </ul>
             </nav>
