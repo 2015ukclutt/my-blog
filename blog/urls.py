@@ -3,8 +3,15 @@ from . import views
 
 urlpatterns = [
     path('', views.homepage, name='homepage'),
+
     path('about/', views.about, name='about'),
+
     path('cv/', views.cv, name='cv'),
+
+    path('projects/', views.projects, name='projects'),
+    path('projects/portfolio/', views.projects_portfolio, name='projects_portfolio'),
+    path('projects/epq/', views.projects_epq, name='projects_epq'),
+
     path('blog/', views.post_list, name='post_list'),
     path('blog/post/<int:pk>/', views.post_detail, name='post_detail'),
     path('blog/post/new/', views.post_new, name='post_new'),
