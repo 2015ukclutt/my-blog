@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+    <a href="{% url 'projects' %}" class="btn">Back</a>
+    <div class="homepage_wrapper">
+        <h1>Extended Project Qualification</h1>
+        <h4 class = "date">2019</h4>
+        <h4>Encryption: Should we put our privacy before our safety?</h4>
+        <p>Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text </p>
+        <iframe src="{%static 'documents/Clutterbuck, Matthew_EPQ.pdf'%}" type="application/pdf" width="100%" height="50%"></iframe>
+    </div>
+{% endblock %}

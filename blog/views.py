@@ -93,3 +93,12 @@ def about(request):
 
 def cv(request):
     return render(request, 'blog/cv.html')
+
+def projects(request):
+    return render(request, 'blog/projects.html')
+
+def projects_portfolio(request):
+    return render(request, 'blog/projects/portfolio.html')
+
+def projects_epq(request):
+    return render(request, 'blog/projects/epq.html')

@@ -180,6 +180,7 @@ nav li a:hover {
     display: block;
     margin-left: 70%;
     width: 30%;
+    margin-bottom: 5%;
 }
 
 .loginbutton {
@@ -202,6 +203,17 @@ nav li a:hover {
 .cv_wrapper {
     width: 100%;
     margin-bottom: 0;
+    position: relative;
+    clear: both;
+    height: auto;
+}
+
+.cv_wrapper iframe {
+    width: 100%;
+    height: auto;
+    min-height: 40vh;
+    max-height: 90vh;
+    clear: both;
 }
 
 .blockcontent {

@@ -1,0 +1,35 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+    <body onload="filterSelection('all')">
+    <div class="homepage_wrapper">
+        <h1>Projects</h1>
+    </div>
+    <div id="myBtnContainer">
+        <button class="btn" onclick="filterSelection('all')">All</button>
+        <button class="btn" onclick="filterSelection('2020')">2020</button>
+        <button class="btn" onclick="filterSelection('2019')">2019</button>
+    </div>
+
+    <div class="portfoliorow">
+        <div class="column 2020">
+            <div class="portfoliocontent">
+                <img src="{% static 'images/blog.png' %}" alt="Personal Website Portfolio" style="width:100%">
+                <h4><a href="{% url 'projects_portfolio' %}">Personal Website Portfolio</a></h4>
+            </div>
+        </div>
+
+        <div class="column 2019">
+            <div class="portfoliocontent">
+                <img src="{% static 'images/whatsapp.png' %}" alt="WhatsApp" style="width:100%">
+                <h4><a href="{% url 'projects_epq' %}">Extended Project Qualification: "Encryption: Should we put our privacy before our safety?"</a></h4>
+            </div>
+        </div>
+        <div class="column 2019">
+            <div class="portfoliocontent">
+                <img src="{% static 'images/code.jpg' %}" alt="A-Level Project" style="width:100%">
+                <h4>Computer Science A-Level Project</h4>
+            </div>
+        </div>
+    </div>
+{% endblock %}
