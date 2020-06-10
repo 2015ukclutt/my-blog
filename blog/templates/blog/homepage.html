@@ -4,16 +4,17 @@
     <div class = "homepage_wrapper">
         <div class="homepage_content">
             <img alt="Matt Profile Image" src="{% static 'images/profile.jpg' %}">
-            <p>Computer science student at the University of Birmingham, completing a degree apprenticeship with PwC. Strong interest in technology and all things running</p>
-            <p>Click here to read my blog</p>
-            <p>Click here to view my CV</p>
+            <p>Computer science student at the University of Birmingham, completing a degree apprenticeship with PwC. I am currently studying in my first year, however this has been cut short by the coronavirus pandemic. With my summer placement cancelled, I am currently looking for computing related projects to help expand my technological expertise (this site being one project).</p>
+            <p>I also compete in a number of Athletics & Cross Country events across the UK, and am finding this lockdown has provided me with much time to focus on my training.</p>
+            <p>Click <a href="{% url 'post_list' %}">here</a> to read my blog</p>
+            <p>Click <a href="{% url 'cv' %}">here</a> to view my CV</p>
         </div>
         <div class="recent_wrapper">
             <h3>Recent Posts</h3>
             {% for post in posts %}
                 <div class="recent">
                     <h4><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h4>
-                    <p>{{ post.published_date }}</p>
+                    <!-- <p>{{ post.published_date }}</p> -->
                 </div>
             {% endfor %}
         </div>

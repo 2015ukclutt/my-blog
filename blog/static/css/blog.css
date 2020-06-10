@@ -2,9 +2,10 @@
     background-color: #e0ebeb;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 10px 20px 10px 40px;
+    padding: 10px 20px 10px 38px;
     border-bottom: none;
     font-family: 'Roboto';
+    width: 100%;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -13,6 +14,7 @@
     text-decoration: none;
     padding-left: 0px;
     font-family: 'Quicksand';
+    font-size: 30px;
 }
 
 body{
@@ -20,10 +22,6 @@ body{
     height: 100%;
     margin: 0;
     width: 100%;
-}
-
-.content {
-    margin-left: 40px;
 }
 
 .content container{
@@ -51,11 +49,11 @@ h1, h2, h3, h4 {
     color: #428bca;
     float: right;
     font-size: 15pt;
-    margin-right: 15px;
+    margin-right: 1%;
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 7%;
 }
 
 .post h2 a, .post h2 a:visited {
@@ -63,7 +61,7 @@ h1, h2, h3, h4 {
 }
 
 .comment {
-    margin: 20px 0px 20px 20px;
+    margin: 2% 0% 2% 0%;
 }
 
 nav, .footer {
@@ -95,7 +93,7 @@ nav, .footer {
 nav {
     margin-top: 0;
     height: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 1.5%;
     padding-top: 5px;
     padding-bottom: 10px;
     border-bottom: 15px solid #ff6600;
@@ -108,12 +106,13 @@ body {
 
 nav ul {
     list-style-type: none;
-    padding: 5px 0px 5px 40px;
+    padding: 5px 0% 5px 40px;
+    width: 80%;
 }
 
 nav li {
     display: inline;
-    margin-right: 40px;
+    margin-right: 2%;
 }
 
 nav li a {
@@ -122,7 +121,7 @@ nav li a {
 
 nav li a:hover {
     color: #000000;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .wrapper {
@@ -137,31 +136,33 @@ nav li a:hover {
 
 .homepage_content {
     display: block;
-    right: 250px;
     width: 70%;
     float: left;
     text-align: center;
 }
 
 .homepage_content img {
-    width: 300px;
-    height: 500px;
+    width: auto;
+    height: 38%;
     border-radius: 5px;
-    margin: 20px;
+    margin: 3%;
 }
 
 .recent_wrapper {
     display: block;
-    right: 0px;
-    width: 20%;
+    width: 25%;
     float: right;
+    text-align: center;
+    height: 30%;
+    margin-right: 3%;
 }
 
 .milestones {
     border-left: 5px dotted #92b9b9;
-    padding-left: 10px;
-    margin-bottom: 50px;
-    width: 70%;
+    padding-left: 2%;
+    margin-bottom: 5%;
+    width: 100%;
+    position: relative;
 }
 
 .about_wrapper {
@@ -171,37 +172,38 @@ nav li a:hover {
 
 .timeline {
     display: block;
-    right: 250px;
-    width: 90%;
+    width: 60%;
     float: left;
 }
 
 .skills_wrapper {
     display: block;
-    right: 0px;
-    width: 10%;
-    float: right;
-}
-
-.skill img {
-    margin-bottom: : 20px
+    margin-left: 70%;
+    width: 30%;
 }
 
 .loginbutton {
-    color: #334d4d;
-    background-color: #a3c2c2;
-    text-shadow: 0px 1px 1px #334d4d;
-    width: 10%;
+    color: #527a7a;
+    background-color: #e0ebeb;
+    width: 30%;
     height: auto;
-    border-radius: 5pt;
-    margin-top: 10px;
+    border-radius: 5px;
+    margin-top: 2%;
 }
 
-.loginform {
-
+.loginFormWrapper {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 3%;
+    width: 70%;
+    text-align: center;
 }
 
 .cv_wrapper {
     width: 100%;
     margin-bottom: 0;
+}
+
+.blockcontent {
+    width: 100%;
 }
