@@ -204,16 +204,18 @@ nav li a:hover {
     width: 100%;
     margin-bottom: 0;
     position: relative;
-    clear: both;
-    height: auto;
+    overflow: hidden;
+    padding-top: 56.25%;
 }
 
-.cv_wrapper iframe {
+.responsive_iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
-    height: auto;
-    min-height: 40vh;
-    max-height: 90vh;
-    clear: both;
+    height: 100%;
 }
 
 .blockcontent {
