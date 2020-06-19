@@ -153,8 +153,26 @@ nav li a:hover {
     width: 25%;
     float: right;
     text-align: center;
-    height: 30%;
+    height: auto;
     margin-right: 3%;
+    background-color: #e0ebeb;
+    border-radius: 10px;
+}
+
+.twitter_wrapper {
+    display: block;
+    width: 25%;
+    float: right;
+    text-align: center;
+    height: auto;
+    margin-right: 3%;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+.twitter-timeline {
+    height: 30%;
+    overflow-y: hidden;
 }
 
 .milestones {
@@ -181,6 +199,14 @@ nav li a:hover {
     margin-left: 70%;
     width: 30%;
     margin-bottom: 5%;
+    background-color: #e0ebeb;
+    padding: 1% 1% 1% 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.skill {
+    margin-top: 1%;
 }
 
 .loginbutton {
@@ -202,7 +228,6 @@ nav li a:hover {
 
 .cv_wrapper {
     width: 100%;
-    margin-bottom: 0;
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
@@ -220,4 +245,11 @@ nav li a:hover {
 
 .blockcontent {
     width: 100%;
+}
+
+.portfolio_img {
+    width: 33%;
+    height: auto;
+    border: 2px solid #000000;
+    margin-top: 2%;
 }
